@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考驱动的页面与动效设计"
+  short_description: "先看实际页面、跨站学习并解释适配，再制作有依据的页面与动效草稿"
+  default_prompt: "请用 $reference-led-ui-design 检查现有页面，学习跨站参考并解释适配，再制作页面或动效草稿。"
