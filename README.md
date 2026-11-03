@@ -52,6 +52,16 @@ npx skills add Anchoror/reference-led-ui-design --skill reference-led-ui-design 
 
 以简练为基础，允许有依据的复杂设计。空间性是观察与判断维度，不要求所有页面都做成3D；也不会为视觉效果擅自添加产品能力。
 
+## 实践案例：公开笔记信息流
+
+使用相同六条笔记、顺序、字体和字段，比较单列与双列的连续浏览。保留参考的图下排版和清楚边线，采用直角图片与透明条目；正文留在详情，不靠增加摘要或放大标题制造完整感。
+
+![公开笔记流单列与双列](examples/note-feed-columns/assets/single-double-390.jpg)
+
+[查看案例、连续录屏与运行方法](examples/note-feed-columns/README.md) · [查看可操作草稿源码](examples/note-feed-columns/index.html)
+
+案例可独立滚动、按相同像素联动和定位同一条，支持筛选/点赞同步及原尺寸查看。它是获准公开的设计比较草稿，不代表已经选择某种列数或完成原生上线。案例放在`examples/`，不混入安装的skill目录。
+
 ## 更新与移除
 
 更新该技能（个人安装）：
@@ -73,9 +83,11 @@ npx skills remove reference-led-ui-design -a codex -g
 - `skills/reference-led-ui-design/SKILL.md`：工作流程与设计判断。
 - `references/evidence-and-sources.md`：参考入口、证据和展示方法。
 - `references/design-decisions.md`：空间轮播、体积云、跨页适配等判断示例。
+- `references/layout-and-browsing.md`：文字面积、浏览任务与布局公平比较。
+- `examples/note-feed-columns/`：公开笔记单列/双列连续对照案例。
 - `agents/openai.yaml`：技能显示信息。
 
-本仓库只包含通用方法、公开参考链接和技能元信息，不打包第三方案例视频、图片或产品源码。外部网站的访问权限和内容可能变化。
+技能目录包含通用方法、公开参考链接和元信息；`examples/`另收录获准公开的独立演示代码、截图和录屏。参考网站的原片、原图、品牌字体与产品源码不打包。示例照片范围见各案例素材说明；外部网站的访问权限和内容可能变化。
 
 ## 维护与发布
 
@@ -85,4 +97,4 @@ npx skills remove reference-led-ui-design -a codex -g
 
 ## License
 
-MIT。该许可适用于本仓库原创文字与配置；不授予外部参考作品的复制或使用权。
+MIT。该许可适用于本仓库原创文字、配置与自写演示代码；不授予外部参考作品或演示照片的复制使用权。案例素材范围见[素材说明](examples/note-feed-columns/ASSETS.md)。
